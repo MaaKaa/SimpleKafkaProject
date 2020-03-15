@@ -2,7 +2,6 @@ A simple Spring Cloud Stream project with Apache Kafka binder.
 
 ## Table of contents
 * [Background](#background)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Status](#status)
