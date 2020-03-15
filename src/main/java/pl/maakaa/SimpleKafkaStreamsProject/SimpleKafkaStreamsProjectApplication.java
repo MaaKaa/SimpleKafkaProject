@@ -9,5 +9,4 @@ public class SimpleKafkaStreamsProjectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SimpleKafkaStreamsProjectApplication.class, args);
 	}
-
 }
