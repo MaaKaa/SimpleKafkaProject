@@ -10,10 +10,11 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Slf4j
-public class MessagesListener {
+public class MessagesConsumer {
 
     /**
-     * Method that is invoked by Spring Cloud Stream with every new Message object on the 'messages' Kafka topic.
+     * Method that consumes the messages that were sent to the kafka topic.
+     * It is invoked every time, when a new Message object appears on the 'messages' Kafka topic.
      */
     @StreamListener(MessagesStreams.INPUT)
     public void handleMessage(@Payload Message message) {

@@ -9,18 +9,18 @@ import org.springframework.messaging.SubscribableChannel;
  *  Interface that defines kafka streams.
  */
 public interface MessagesStreams {
-    String INPUT = "greetings-in";
-    String OUTPUT = "greetings-out";
+    String INPUT = "messages-in";
+    String OUTPUT = "messages-out";
 
     /**
-     * an inbound stream to read messages from a Kafka topic
+     * An inbound stream to read messages from a Kafka topic.
      */
     @Input(INPUT)
-    SubscribableChannel inboundGreetings();
+    SubscribableChannel inboundMessages();
 
     /**
-     * An outbound stream to write messages to a Kafka topic
+     * An outbound stream to write messages to a Kafka topic.
      */
     @Output(OUTPUT)
-    MessageChannel outboundGreetings();
+    MessageChannel outboundMessages();
 }

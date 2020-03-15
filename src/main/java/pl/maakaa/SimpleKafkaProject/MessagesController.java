@@ -11,14 +11,14 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class MessagesController {
-    private final MessagesService messagesService;
+    private final MessagesProducer messagesProducer;
 
-    public MessagesController(MessagesService messagesService) {
-        this.messagesService = messagesService;
+    public MessagesController(MessagesProducer messagesProducer) {
+        this.messagesProducer = messagesProducer;
     }
 
     /**
-     * Method defining an endpoint that takes a message request param and passes it to the sendMessage() method in MessagesService.
+     * Method defining an endpoint that takes a message request param and passes it to the sendMessage() method in MessagesService (it is then used by the Producer).
      * @param message
      */
     @GetMapping("/messages")
@@ -29,6 +29,6 @@ public class MessagesController {
                 .timestamp(System.currentTimeMillis())
                 .build();
 
-        messagesService.sendMessage(messages);
+        messagesProducer.sendMessage(messages);
     }
 }

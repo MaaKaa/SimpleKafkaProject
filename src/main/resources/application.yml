@@ -5,9 +5,9 @@ spring:
         binder:
           brokers: localhost:9092 # the address of the kafka server to connect to
       bindings:
-        greetings-in:
+        messages-in:
           destination: messages # kafka topic used both for the inbound and outbound streams
           contentType: application/json
-        greetings-out:
+        messages-out:
           destination: messages
           contentType: application/json
