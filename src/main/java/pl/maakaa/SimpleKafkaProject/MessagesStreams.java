@@ -1,4 +1,4 @@
-package pl.maakaa.SimpleKafkaStreamsProject;
+package pl.maakaa.SimpleKafkaProject;
 
 import org.springframework.cloud.stream.annotation.Input;
 import org.springframework.cloud.stream.annotation.Output;

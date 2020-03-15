@@ -1,4 +1,4 @@
-package pl.maakaa.SimpleKafkaStreamsProject;
+package pl.maakaa.SimpleKafkaProject;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;

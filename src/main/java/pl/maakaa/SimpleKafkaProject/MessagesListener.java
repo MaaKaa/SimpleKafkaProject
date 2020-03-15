@@ -1,4 +1,4 @@
-package pl.maakaa.SimpleKafkaStreamsProject;
+package pl.maakaa.SimpleKafkaProject;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.stream.annotation.StreamListener;

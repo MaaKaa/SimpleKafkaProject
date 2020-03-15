@@ -1,4 +1,4 @@
-package pl.maakaa.SimpleKafkaStreamsProject;
+package pl.maakaa.SimpleKafkaProject;
 
 import lombok.Builder;
 import lombok.Getter;

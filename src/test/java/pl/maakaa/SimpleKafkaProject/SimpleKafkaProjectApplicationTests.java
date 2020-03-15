@@ -1,10 +1,10 @@
-package pl.maakaa.SimpleKafkaStreamsProject;
+package pl.maakaa.SimpleKafkaProject;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SimpleKafkaStreamsProjectApplicationTests {
+class SimpleKafkaProjectApplicationTests {
 
 	@Test
 	void contextLoads() {

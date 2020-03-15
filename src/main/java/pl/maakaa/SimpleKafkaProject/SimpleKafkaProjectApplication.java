@@ -1,12 +1,12 @@
-package pl.maakaa.SimpleKafkaStreamsProject;
+package pl.maakaa.SimpleKafkaProject;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SimpleKafkaStreamsProjectApplication {
+public class SimpleKafkaProjectApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SimpleKafkaStreamsProjectApplication.class, args);
+		SpringApplication.run(SimpleKafkaProjectApplication.class, args);
 	}
 }
