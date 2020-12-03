@@ -8,6 +8,7 @@ class SimpleKafkaProjectApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }

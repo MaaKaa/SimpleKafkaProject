@@ -1,13 +1,15 @@
-package pl.maakaa.SimpleKafkaProject;
+package pl.maakaa.SimpleKafkaProject.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
+import pl.maakaa.SimpleKafkaProject.domain.Message;
+import pl.maakaa.SimpleKafkaProject.kafka.MessagesProducer;
 
 /**
- * REST API endpoint that triggers sending a message to kafka using the GreetingsService bean.
+ * REST API endpoint that triggers sending a message to Kafka.
  */
 @RestController
 public class MessagesController {
@@ -18,7 +20,7 @@ public class MessagesController {
     }
 
     /**
-     * Method defining an endpoint that takes a message request param and passes it to the sendMessage() method in MessagesService (it is then used by the Producer).
+     * Method defining an endpoint that takes a message request param and passes it to the MessagesProducer's sendMessage() method.
      * @param message
      */
     @GetMapping("/messages")

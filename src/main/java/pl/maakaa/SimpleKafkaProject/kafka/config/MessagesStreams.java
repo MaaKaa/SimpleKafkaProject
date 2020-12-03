@@ -1,4 +1,4 @@
-package pl.maakaa.SimpleKafkaProject;
+package pl.maakaa.SimpleKafkaProject.kafka.config;
 
 import org.springframework.cloud.stream.annotation.Input;
 import org.springframework.cloud.stream.annotation.Output;
@@ -6,7 +6,7 @@ import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.SubscribableChannel;
 
 /**
- *  Interface that defines kafka streams.
+ *  Interface that defines Kafka streams.
  */
 public interface MessagesStreams {
     String INPUT = "messages-in";

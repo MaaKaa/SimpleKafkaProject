@@ -1,4 +1,4 @@
-package pl.maakaa.SimpleKafkaProject;
+package pl.maakaa.SimpleKafkaProject.domain;
 
 import lombok.Builder;
 import lombok.Getter;

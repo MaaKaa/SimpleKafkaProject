@@ -1,4 +1,4 @@
-package pl.maakaa.SimpleKafkaProject;
+package pl.maakaa.SimpleKafkaProject.kafka.config;
 
 import org.springframework.cloud.stream.annotation.EnableBinding;
 
