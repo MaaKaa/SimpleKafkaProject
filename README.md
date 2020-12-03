@@ -17,7 +17,7 @@ This simple application was built to test Spring Cloud Services and Kafka binder
 
 It defines a REST endpoint through which you can pass the message and print it to the console to see kafka's consumer and producer in action.
 
-###How it works:
+### How it works:
 
 There is a REST endpoint defined at http://localhost:8080/messages.
 To send a message, simply pass a "message" parameter, e.g.: http://localhost:8080/messages?message=MessageContent
